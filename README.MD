@@ -1,9 +1,7 @@
 # Rebellious Student: A Complementary Learning Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection
 
-**Authors**: Wenping Jin, Yuyang Tang, Li Zhu, Fei Guo
-
 ## Overview
-This repository provides the official implementation for the training pipeline and the final fusion-based anomaly detection framework introduced in our paper [pdf](https://arxiv.org/pdf/2510.18781) :
+This repository provides the official implementation for the training pipeline and the final fusion-based anomaly detection framework introduced in our paper:
 
 **"Rebellious Student: A Complementary Learning Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection"**
 
@@ -75,29 +73,4 @@ python test.py
 Using the AE detector:
 ```bash
 python test.py --detect AE
-```
-
-## Citation
-If this repo works positively for your research, please consider citing our paper. Thanks all!
-
-```
-@misc{jin2025_FERS,
-      title={Rebellious Student: A Complementary Learning Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection}, 
-      author={Wenping Jin and Yuyang Tang and Li Zhu and Fei Guo},
-      year={2025},
-      eprint={2510.18781},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2510.18781}, 
-}
-```
-
-```
-@article{jin2024_FERD,
-  author={Jin, Wenping and Dang, Feng and Zhu, Li},
-  journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={Feature Enhancement with Reverse Distillation for Hyperspectral Anomaly Detection}, 
-  year={2024},
-  doi={10.1109/LGRS.2024.3456178}
-}
 ```
